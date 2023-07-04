@@ -1,0 +1,37 @@
+
+/*-----------------*/
+/*----Animations---*/
+/*-----------------*/
+
+.divPosition{
+  margin: 10%;
+}
+
+.myElement {
+    transform: rotate(45deg);
+    // animation: <animation-name> <animation-duration> <animation-iteration-count>
+    animation: heartbeat 2.5s infinite;
+    animation-timing-function: ease-in;
+  }
+
+  @keyframes heartbeat {
+    // scale down and scale up faster in irregular intervals to get the throbbing effect
+    0% {
+      transform: scale(0.8);
+    }
+    5% {
+      transform: scale(0.9);
+    }
+    10% {
+      transform: scale(0.8);
+    }
+    15% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.8);
+    }
+    100% {
+      transform: scale(0.8);
+    }
+  }  

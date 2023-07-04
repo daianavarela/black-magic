@@ -1,0 +1,52 @@
+/*---------------*/
+/*Estilos de main*/
+/*---------------*/
+.background {
+  background-color: #141313;
+}
+
+.text {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+  color: #c8d0d6;
+}
+
+/*-----------------*/
+/*----Animations---*/
+/*-----------------*/
+.divPosition {
+  margin: 10%;
+}
+
+.myElement {
+  transform: rotate(45deg);
+  animation: heartbeat 2.5s infinite;
+  animation-timing-function: ease-in;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(0.8);
+  }
+  5% {
+    transform: scale(0.9);
+  }
+  10% {
+    transform: scale(0.8);
+  }
+  15% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
