@@ -8,7 +8,6 @@
 }
 
 .myElement {
-    transform: rotate(45deg);
     // animation: <animation-name> <animation-duration> <animation-iteration-count>
     animation: heartbeat 2.5s infinite;
     animation-timing-function: ease-in;
@@ -26,9 +25,9 @@
       transform: scale(0.8);
     }
     15% {
-      transform: scale(1);
+      transform: scale(0.9);
     }
-    50% {
+    20% {
       transform: scale(0.8);
     }
     100% {
